@@ -1,0 +1,44 @@
+body{
+  background-image: url(../media/puzzle.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+.title{
+  font-weight: 900;
+  font-size: 2em;
+  color: #ff9234;
+  font-family: 'Allura';
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 6em;
+  margin-left:0;
+  margin-top:0;
+}
+#nav{
+  text-align: center;
+}
+#title{
+  text-decoration: none;
+}
+#title:hover, #title:focus{
+  text-decoration: none;
+}
+.heading{
+  font-family: 'Prompt', sans-serif;
+  font-size: 50px;
+  color:snow;
+  text-align: center;
+}
+.games{
+  text-align: center;
+  padding-top: 10px;
+}
+h2{
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color:snow;
+}

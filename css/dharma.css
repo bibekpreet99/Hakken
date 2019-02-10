@@ -1,0 +1,86 @@
+body {
+    background-image: url(../media/re.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+  font-weight: 900;
+  font-size: 2em;
+  color: #ff9234;
+  font-family: 'Allura';
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 6em;
+  margin-left:0;
+  margin-top:0;
+}
+#title{
+  text-decoration: none;
+}
+.heading {
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size:40px;
+    padding-bottom:10px;
+}
+
+#title:hover, #title:focus{
+  text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #1c819e;
+    font-size:110%;
+}
+    a:hover {
+        color: #005542;
+    }
+h1 {
+    color: #df0e62;
+}
+.hinduism h1,.christanity h1,.muslim h1,.sikhism h1{
+    font-size:50px;
+}
+.hinduism {
+    text-align: center;
+    background: #ffcece;
+    width: 30%;
+    margin-left: 35%;
+}
+.christanity {
+    text-align: center;
+    background: #ffe3b0;
+    width: 30%;
+    margin-left: 35%;
+}
+.muslim {
+    text-align: center;
+    background: #8ed6ff;
+    width: 30%;
+    margin-left: 35%;
+}
+.sikhism {
+    text-align: center;
+    background: #ffc1c8;
+    width: 30%;
+    margin-left: 35%;
+}
+@media(max-width:1050px){
+  #nav{
+    text-align: center;
+  }
+  .list,ul{
+    text-align:center;
+    margin-left:0;
+  }
+  .text{
+    text-align: center;
+    font-size: 17.5px;
+    font-family: 'Concert One', cursive;
+
+  }
+
+}

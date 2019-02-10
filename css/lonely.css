@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.header nav{
+    text-align: center;
+}
+.title{
+    display: inline-block;
+    position: absolute;
+    font-weight: 900;
+    font-size: 6em;
+  color: #ff9234;
+  font-family: 'Allura';
+  margin-left: .5em;
+}
+.nav{
+    display: inline-block;
+}
+.smile{
+    background-image: url(https://vipweb.ie/wp-content/uploads/2015/03/My-Desktop-Smile-Hd-Desktop-Wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 21em .5em;
+    color: #f9ff21;
+    margin: 0;
+    background-position: top;
+    
+}
+.cont1{
+    background-color: #343434;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 15px;
+}
+.invite{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/37/Nice_Cup_of_Tea.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 21em .5em;
+    color: #494949;
+    margin: 0;
+    background-position: top;
+    display: inline-block;
+}
+.cont2{
+    background-color: snow;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 15px;
+}
+.phone{
+    background-image: url(https://martechtoday.com/wp-content/uploads/2018/08/Main_Image_Phone_qnoyq0.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 21em .5em;
+    color: #ffa35f;
+    margin: 0;
+    background-position: top;
+    display: inline-block;
+}
+.cont3{
+    background-color: #404b69;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 15px;
+}
+.community{
+    background-image: url(https://www.bethesdahealth.org/wp-content/uploads/2018/01/iStock-680410722.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 21em .5em;
+    color: #f96d00;
+    margin: 0;
+    background-position: top;
+    display: inline-block;
+}
+.cont4{
+    background-color: #849561;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 15px;
+}
+#title:hover, #title:focus{
+text-decoration: none;
+}
+
+.smile h1{
+    font-size: 3em;
+}
+.invite h1{
+    font-size: 3em;
+}
+.phone h1{
+    font-size: 3em;
+}
+.community h1{
+    font-size: 3em;
+}

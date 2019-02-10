@@ -1,0 +1,375 @@
+*{
+  text-decoration: none;
+  font-family: "montserrat";
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+body{
+  background: #333;
+  text-align: center;
+
+}
+h1{
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: 0;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav a{
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: .5em;
+  color: #fff;
+}
+nav a:hover, nav a:focus{
+  color: #DDD;
+  text-decoration: none;
+}
+
+
+ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 1em;
+}
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 1em;
+
+}
+#but:hover, #but:focus{
+  background-color: rgb(30, 172, 172);
+}
+header form{
+  float: right;
+  margin-right: 30px;
+}
+.cont1{
+  background-image: url(../media/cover.png);
+  height: auto;
+  background-position: top;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 21em 5em;
+  text-align: center;
+  color: snow;
+  background-size: cover;
+  font-weight: 900;
+  background-repeat: no-repeat;
+  background-size: 1600px 1300px;
+}
+.cont1 h1{
+  font-size: 5em;
+}
+
+#but{
+  background: transparent;
+  border: 2px solid #ff9234;
+  color: wheat;
+  font-weight: 900;
+}
+
+#but:hover, #but:focus{
+  background: #ff9234;
+  box-shadow: 0 0 0 0.2rem orange; 
+}
+
+select{
+  width: 40%;
+  padding: 14px 10px;
+  background-color: white;
+  font-family: 'Staatliches', cursive;
+  outline: none;
+  /* border: none;
+  color: cyan; */
+}
+.modal-header, .modal-body, .modal-footer{
+  overflow: hidden;
+  color: white;
+}
+option{
+  background-color: transparent;
+}
+.modal-bg{
+  background-image: url(../media/emo.jpg);
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+
+}
+/* .travel{
+  background-color: #6e3b3b;
+  color: #ff9234
+} */
+label{
+  font-weight: 900;
+
+}
+
+.modal-body{
+  color: white;
+}
+/* .autocomplete-items {
+  position: absolute;
+  border: 2px solid cyan;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 5%;
+
+} */
+/* 
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 2px solid cyan; 
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+} */
+.cont2{
+  background-color: #232323;
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding: 15em;
+  outline: 4px solid aqua;
+  outline-offset: -5em;
+  text-align: center;
+}
+
+.cont2 h1{
+  color: aqua;
+  position: absolute; 
+  padding: 0 0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 70px;
+  top: .5em;
+  background-color: #232323;
+  font-weight: 900;
+  scroll-behavior: smooth;
+}
+
+.cont2 p{
+  font-size: 2em;
+}
+.title{
+  font-weight: 900;
+  font-size: 6em;
+  color: #ff9234;
+  font-family: 'Allura';
+}
+#title{
+  text-decoration: none;
+}
+
+#title:hover, #title:focus{
+  text-decoration: none;
+}
+.cont3{
+  background-image: url(../media/cont1.jpeg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: #DDD;
+  text-align: center;
+  padding: 15em 15em;
+  position: relative;
+  outline: 4px solid yellow;
+  outline-offset: -4em;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+.cont3 h1{
+  color: yellow;
+  position: absolute;
+  top: .9em;
+  font-size: 70px;
+  background-color: transparent;
+  padding: 0 0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 900;
+}
+.contact{
+  text-align: left;
+}
+.head{
+  font-weight: 300;
+  color: yellow;
+
+}
+/* .cont4{
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-color: #000000;
+  position: relative;
+  outline: 4px solid white;
+  outline-offset: -3em;
+  scroll-behavior: smooth;
+}
+
+.cont4 h1{
+  font-size: 70px;
+  background-color: transparent;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: .1em;
+  background-color: #000000;
+  padding: 0 .5em;
+}
+
+.cards{
+  text-align: left;
+  padding: 6em;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.card1{
+  cursor: pointer;
+  width: 340px;
+  height: 480px;
+  position: relative;
+  top: 280px;
+  left: 250px;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+}
+.front,.back{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+.front img{
+  height: 100%;
+  width: 100%;
+}
+.front{
+  transform: perspective(600px) rotateY(0deg);
+  padding: .5em;
+}
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+  padding: .5em;
+}
+.back-content{
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+
+.card1:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card1:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+.card2:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card2:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.card2{
+  cursor: pointer;
+  width: 340px;
+  height: 480px;
+  position: relative;
+  top: 280px;
+  left: 250px;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+} */
+
+@media(min-width: 1050px){
+  .title{
+    float: left;
+    margin-left: .5em;
+    font-size: 5em;
+    margin-top: 0;
+    font-weight: 900;
+  font-size: 6em;
+  color: #ff9234;
+  font-family: 'Allura';
+  text-decoration: none;
+  }
+  nav{
+    margin-top: 1em;
+  }
+  nav a{
+    font-size: 1.5rem;
+  }
+  .cont1{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header form{
+    margin-top: 1em;
+  }
+  nav ul{
+    float: right;
+  }
+}
+.foot{
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: snow
+}
+
+#myVideo{
+  position: fixed;
+right: 0; 
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+width: auto; 
+height: auto;
+z-index: -100;
+}
