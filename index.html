@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Card</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Sacramento|Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>       
+        <a href="./index.html" id="title"><h1 class="title">Hakken</h1></a>
+        <nav> <ul>
+                <li><a href="#cont1"> Home</a></li>
+                <li><a href="#cont2"> About</a></li>
+                <li><a href="#cont3"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>   
+   
+    <div class="cont1" id='cont1'>     
+        <!-- <h1 class="title">Hakken</h1> -->
+        <h1>Rebuilding Elderly Minds
+        <h2>To care for those who once cared for us, is one of the highest honors</h2><br><h3>
+        </h3></h1><br><br>
+        <!-- Button trigger modal -->
+<button id="but"type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Hakken!
+      </button>
+      
+     
+    </div>
+    <video autoplay loop muted id="myVideo" ><source src="" type="video/mp4"></video>
+     <!-- Modal -->
+     <div class="travel">
+     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content modal-bg">
+                <div class="modal-header" style="border-bottom: none">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">What are you dealing with </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="border-bottom: none">
+                        <select name="start" id="start" >
+                            <option value="stress">Stress</option>
+                            <option value="depression">Depression</option>
+                            <option value="lonely">Loneliness</option>
+                            <option value="dharma">Dharma</option>
+                            
+                        </select>    <br><br>
+                </div>
+                <div class="modal-footer" style="border-top: none;">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="go">GO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="cont2 " id='cont2'>
+        <h1>Who we are</h1>
+        <p>Hakken in Japanese means discover. So we, at Hakken want you to rediscover yourselves.
+            This site is especially for our dear old - gold elders who need to realise how important 
+            they are to us as well as the society. On this site you will meditate, do yoga, play some games etc. 
+            to cheer yourselves up.
+        </p>
+
+    </div>
+    <div class="cont3" id="cont3">
+           <h1>Contact Us</h1>
+           <div class="contact">
+            <h3><span class="head">Email:</span> something@gmail.com</h3>
+            <h3><span class="head">Phone no:</span> 9090909090</h3>
+            <h3><span class="head">Address:</span> Thapar Institute Of Engineering Technology, Patiala, 147004</h3> 
+            </div>
+    </div>
+    <!-- <div class="cont4" id="cont4">
+        <h1>Favorites</h1>
+        <div class="cards">
+            <div class="card1">
+                <div class="front">
+                    <img src="https://qph.fs.quoracdn.net/main-qimg-0900fd8a19e37e0c4f99889e10987964.webp" alt="">
+                </div>
+                <div class="back">
+                    <div class="back-content middle">
+                        <h2>COS</h2>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                        <a href="#">click here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="front">
+                    <img src="http://www.thapar.edu/images/phocagallery/campus_tour/hpic1.jpg" alt="">
+                </div>
+                <div class="back">
+                        <div class="back-content middle">
+                            <h2>COS</h2>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                                <a href="#">click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                            <div class="front">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDN02om6WTUEdQz3jtCdOpnd7yh53lBToQWH4r7yTp_ElaLNrdw" alt="">
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h2>COS</h2>
+                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                                    <a href="#">click here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card2">
+                                <div class="front">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDN02om6WTUEdQz3jtCdOpnd7yh53lBToQWH4r7yTp_ElaLNrdw" alt="">
+                                </div>
+                                <div class="back">
+                                    <div class="back-content middle">
+                                        <h2>COS</h2>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                                        <a href="#">click here</a>
+                                    </div>
+                                </div>
+                        </div>
+                            <div class="card2">
+                                    <div class="front">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDN02om6WTUEdQz3jtCdOpnd7yh53lBToQWH4r7yTp_ElaLNrdw" alt="">
+                                    </div>
+                                    <div class="back">
+                                        <div class="back-content middle">
+                                            <h2>COS</h2>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                                            <a href="#">click here</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="card2">
+                                    <div class="front">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDN02om6WTUEdQz3jtCdOpnd7yh53lBToQWH4r7yTp_ElaLNrdw" alt="">
+                                    </div>
+                                    <div class="back">
+                                        <div class="back-content middle">
+                                            <h2>COS</h2>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                                            <a href="#">click here</a>
+                                        </div>
+                                    </div>
+                            </div>
+                                <div class="card2">
+                                        <div class="front">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDN02om6WTUEdQz3jtCdOpnd7yh53lBToQWH4r7yTp_ElaLNrdw" alt="">
+                                        </div>
+                                        <div class="back">
+                                            <div class="back-content middle">
+                                                <h2>COS</h2>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quibusdam tempora, alias qui deleniti reiciendis explicabo itaque obcaecati odit velit perspiciatis, neque suscipit voluptas quos eligendi aliquam sit temporibus! Enim!</span>
+                                                <a href="#">click here</a>
+                                            </div>
+                                        </div>
+                                </div>
+                
+        </div>                
+    </div> -->
+
+    <footer class="foot">
+            &copy; Copyright Team Hakken 2019
+    </footer>
+    <script src="script.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</body>
+</html>
